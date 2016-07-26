@@ -1,0 +1,20 @@
+{
+  "name": "json2schema",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "chai": "^1.8.1",
+    "extend": "^3.0.0",
+    "mocha": "2.0.1"
+  },
+  "scripts": {
+    "test": "mocha ./spec/json2schema.js"
+  },
+  "devDependencies": {
+    "chai-shallow-deep-equal": "^1.4.0",
+    "deep-equal": "^1.0.1",
+    "jsonschema": "^1.1.0",
+    "ts-node": "^1.2.1",
+    "typescript": "^1.8.10"
+  }
+}
